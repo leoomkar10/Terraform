@@ -67,8 +67,8 @@ provider "aws" {
 ```bash
 # ❌ Never hardcode credentials in code
 # ✅ Set as environment variables
-export AWS_ACCESS_KEY_ID="AKIAIOSFODNN7EXAMPLE"
-export AWS_SECRET_ACCESS_KEY="wJalrXUtnFEMI/K7MDENG"
+export AWS_ACCESS_KEY_ID="**************"
+export AWS_SECRET_ACCESS_KEY="****************"
 export AWS_DEFAULT_REGION="us-east-1"
 ```
 
