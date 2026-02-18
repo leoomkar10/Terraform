@@ -1,0 +1,46 @@
+# Terraform Files to Ignore
+
+# .terraform directory - contains provider plugins (large files)
+.terraform/
+.terraform.lock.hcl
+
+# State files - contain sensitive info about your infrastructure
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Variable files with actual values - VERY IMPORTANT!
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Plan output files
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Environment files
+.env
+.env.*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
